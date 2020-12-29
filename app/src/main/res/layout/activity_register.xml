@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".ui.RegisterActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:id="@+id/register_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:background="@drawable/inputdes"
+        android:padding="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:hint="Номер телефона"
+        android:inputType="number"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:background="@drawable/inputdes"
+        android:padding="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:hint="Имя пользователя"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_input"
+        android:background="@drawable/inputdes"
+        android:padding="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/registern_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_input"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/but1"
+        android:padding="20dp"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        />
+
+
+</RelativeLayout>

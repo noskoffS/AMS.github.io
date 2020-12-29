@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1069121181760",
+    "project_id": "amams-8077d",
+    "storage_bucket": "amams-8077d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069121181760:android:1004758c4de1a9c45727a5",
+        "android_client_info": {
+          "package_name": "com.example.ams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069121181760-lsrrtqofrd1ojfrqf7r09chd4krttahq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ams",
+            "certificate_hash": "bebcfc922e81bc99571fa48b3d1a0645bc3f79e1"
+          }
+        },
+        {
+          "client_id": "1069121181760-nc0n4pek6rsec362itc0mtnk0hfq00cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkEEvmBPtGIc8z9HEtu2V5vYDiGU0ENjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069121181760-nc0n4pek6rsec362itc0mtnk0hfq00cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
