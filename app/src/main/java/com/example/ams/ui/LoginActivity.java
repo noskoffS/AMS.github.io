@@ -1,3 +1,4 @@
+// страничка для логина уже зареганных пользователей
 package com.example.ams.ui;
 import com.example.ams.ui.Admin.AdminAddNewProductActivity;
 import com.example.ams.Model.Users;
