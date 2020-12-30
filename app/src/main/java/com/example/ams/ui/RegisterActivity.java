@@ -1,3 +1,4 @@
+// страница регистрации
 package com.example.ams.ui;
 
 import androidx.annotation.NonNull;
