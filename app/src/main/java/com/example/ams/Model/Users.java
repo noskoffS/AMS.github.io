@@ -1,3 +1,4 @@
+// создали класс Users, который возвращает нам нужные значения
 package com.example.ams.Model;
 
 public class Users {
